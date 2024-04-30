@@ -12,10 +12,10 @@ def render() -> None:
 	global DONATE_BUTTON
 
 	ABOUT_BUTTON = gradio.HTML(
-		value='<img src="file/bLogo.png" />'
+		value='<img src="file/logo.png" />'
 	)
 	DONATE_BUTTON = gradio.Button(
-		value = 'تركيب وجهك على فيديو و تبديل الوجوه في الصور بالذكاء الاصطناعي - أشترك فى القناة',
-		link = 'https://www.youtube.com/@basetatube/?sub_confirmation=1',
+		value = 'Code Modifie par @Mafluenceur-Team',
+		link = 'https://mafluenceur.com/',
 		size = 'sm'
 	)
